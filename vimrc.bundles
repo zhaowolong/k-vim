@@ -54,7 +54,8 @@ Plug 'docunext/closetag.vim', { 'for': ['html', 'xml'] }
 " quick edit
 " 快速注释
 Plug 'scrooloose/nerdcommenter'
-
+" gloang
+Plug 'fatih/vim-go'
 
 " 快速加入修改环绕字符
 " for repeat -> enhance surround.vim, . to repeat command
@@ -598,6 +599,7 @@ endif
     let g:ctrlp_match_window_reversed=0
     let g:ctrlp_mruf_max=500
     let g:ctrlp_follow_symlinks=1
+    let g:ctrlp_funky_matchtype = 'path'
     " 如果安装了ag, 使用ag
     " if executable('ag')
     " " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
